@@ -9,7 +9,7 @@ import threading
 logger = logging.getLogger('pycountry.db')
 
 
-class Data:
+class Data(object):
 
     def __init__(self, **fields):
         self._fields = fields

@@ -2,8 +2,8 @@
 
 import json
 import logging
-from io import open
 import threading
+from io import open
 
 
 logger = logging.getLogger('pycountry.db')

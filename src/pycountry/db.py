@@ -1,8 +1,8 @@
 # vim:fileencoding=utf-8
 
 import json
-from io import open
 import logging
+from io import open
 import threading
 
 
